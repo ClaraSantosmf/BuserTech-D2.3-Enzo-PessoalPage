@@ -114,12 +114,20 @@ progress {
 }
 
 .projects {
+  background-color: #84858512;
   font-size: 24px;
-  background-color: red;
+}
+
+.proj {
+  margin-left: 47%;
 }
 
 .barrinhas {
   margin-left: 20%;
+}
+
+.projects .barrinhas {
+  margin-left: 49%;
 }
 
 .barra1,
@@ -142,9 +150,8 @@ progress {
 }
 
 .skills {
-  height: 750px;
   width: 850px;
-  margin-top: 75px;
+  margin-top: 60px;
   margin-left: calc(50vw - 425px);
 }
 
@@ -154,7 +161,6 @@ progress {
   height: 652px;
   width: 850px;
   left: 0px;
-  background-color: aqua;
 }
 
 .GDimg {
@@ -220,9 +226,9 @@ progress {
 }
 
 .backgroundecontatos {
-  background: center / cover url(/D2.2-pag-pessoal-estilo/images/mapamundo.png) !important;
+  background: center / cover url(/images/mapamundo.png) !important;
   background-size: 50rem 70rem;
-  padding: 70px;
+  padding: 40px;
 }
 
 .contact {
@@ -232,7 +238,7 @@ progress {
   padding: 15px;
   box-sizing: border-box;
   color: white;
-  margin: auto;
+  margin-left: calc(50vw - 420px);
 }
 
 .barrinhas2 {
