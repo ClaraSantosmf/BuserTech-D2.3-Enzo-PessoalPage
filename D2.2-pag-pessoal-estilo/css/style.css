@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
   font-weight: 400;
   color: #293651;
   bottom: 0px;
@@ -15,6 +14,7 @@ h1 {
 }
 
 .texto {
+  font-size: 24px;
   text-align: justify;
   margin-left: 20%;
   margin-right: 20%;
@@ -39,10 +39,6 @@ div span {
   letter-spacing: 4px;
   font-size: 30px;
   margin: 10px 0px 31px 0px;
-}
-
-p span {
-  color: rgb(53, 173, 127);
 }
 
 .cor1 {
@@ -97,6 +93,7 @@ p span {
 }
 
 .minicv {
+  font-size: 24px;
   text-align: justify;
   margin-top: 25px;
   margin-left: 20%;
@@ -104,6 +101,7 @@ p span {
 }
 
 .progress {
+  font-size: 24px;
   accent-color: #13b49f;
   margin-left: 20%;
   margin-right: 20%;
@@ -116,7 +114,8 @@ progress {
 }
 
 .projects {
-  background-color: #f9f9f9;
+  font-size: 24px;
+  background-color: red;
 }
 
 .barrinhas {
@@ -150,47 +149,80 @@ progress {
 }
 
 .squads {
+  padding: 10px;
   text-align: center;
-}
-.jurimetry {
-  border-radius: 5px;
-  display: inline-block;
-  height: 300px;
-  width: 300px;
-  background-color: #293651;
-  margin: 10px;
+  height: 652px;
+  width: 850px;
+  left: 0px;
+  background-color: aqua;
 }
 
-.arbitration {
-  border-radius: 5px;
-  display: inline-block;
-  height: 300px;
-  width: 300px;
-  background-color: #293651;
-  margin: 10px;
+.GDimg {
+  height: 100px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: aquamarine;
+  border-radius: 10px;
 }
-.process {
-  border-radius: 5px;
-  height: 300px;
-  width: 300px;
-  background-color: #293651;
-  display: inline-block;
-  margin: 10px;
+
+.title {
+  font-weight: bold;
+  margin-top: 38%;
+  padding: 10px;
 }
-.datascience {
+
+.GD {
+  font-size: 20px;
   border-radius: 5px;
+  display: inline-block;
   height: 300px;
   width: 300px;
-  background-color: #293651;
-  display: inline-block;
+  background-color: #ffffff;
   margin: 10px;
+  position: relative;
+  box-shadow: 5px 2px 10px grey;
+}
+
+.WD {
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  margin: 10px;
+  position: relative;
+  box-shadow: 5px 2px 10px grey;
+}
+
+.UI {
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  margin: 10px;
+  position: relative;
+  box-shadow: 5px 2px 10px grey;
+}
+.FD {
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  margin: 10px;
+  position: relative;
+  box-shadow: 5px 2px 10px grey;
 }
 
 .backgroundecontatos {
   background: center / cover url(/D2.2-pag-pessoal-estilo/images/mapamundo.png) !important;
   background-size: 50rem 70rem;
   padding: 70px;
-  fill-opacity: 50%;
 }
 
 .contact {
